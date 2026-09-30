@@ -77,6 +77,7 @@ export class App implements AfterViewChecked {
         this.cdr.detectChanges();
       },
       error: (err) => {
+        console.log(err,'err')
         this.isLoading = false;
         this.messages.push({
           sender: 'bot',
