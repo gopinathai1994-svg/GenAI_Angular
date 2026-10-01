@@ -13,7 +13,7 @@ import { RouterOutlet } from '@angular/router';
 export class App implements AfterViewChecked {
   @ViewChild('scrollContainer') private scrollContainer!: ElementRef;
 
-  private apiUrl = 'https://genai-it-troubleshooting-chatbot.onrender.com/api/chat' //'http://localhost:8000/api/chat';
+  private apiUrl = '/api/chat' //'http://localhost:8000/api/chat';
 
   userPrompt = '';
   isLoading = false;

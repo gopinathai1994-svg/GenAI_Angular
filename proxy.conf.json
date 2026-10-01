@@ -1,0 +1,8 @@
+{
+  "/api": {
+    "target": "https://backend-it-troubleshooting-chatbot.onrender.com",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
